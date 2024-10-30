@@ -25,7 +25,7 @@ bensin = forsikring_bensin + trafikkforsikring_bensin + forbruk_bensin + bom_ben
 bensin = round(bensin, 2) #runder av med 2 desimaler
 
 diff = bensin - el # regner ut differanse bensinbil-elbil
-
+diff = round(diff, 2)  #runder av med 2 desimaler
 
 print ("Det koster ", el, " å kjøre elbil ett år")
 print ("Det koster ", bensin, " å kjøre bensinbil ett år")
